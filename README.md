@@ -7,6 +7,13 @@
 
 This repo contains selected topics and materials in DevOps for Developers. 
 
+## Topics 
+
+- CI/CD pipelines
+- Docker containers 
+- Terraform infrastructure as code
+- Observability and monitoring
+
 
 ## Studying Guide
 
