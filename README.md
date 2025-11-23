@@ -30,8 +30,7 @@ This repo contains selected topics and materials in DevOps for Developers.
  <td><a href="tutorials/ci.md">Setting a Continues Integration (CI) pipeline</a></td>
  <td></td>
  <td>&nbsp;</td>
- <td></td>
- <td align="center"></td>
+ <td align="center"><a href="tutorials/ci.md#exercises"><img src="https://alonitac.github.io/DevOpsTheHardWay/img/pen.png" /></a></td> <td align="center"></td>
 </tr>	
 
 
