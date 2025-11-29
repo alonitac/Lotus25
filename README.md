@@ -38,7 +38,18 @@ This repo contains selected topics and materials in DevOps for Developers.
  <td></td>
  <td>&nbsp;</td>
  <td align="center"><a href="tutorials/ci.md#exercises"><img src="https://alonitac.github.io/DevOpsTheHardWay/img/pen.png" /></a></td> <td align="center"></td>
+</tr>
+
+
+<tr>
+ <td>1</td>
+ <td>CI/CD</td>
+ <td><a href="tutorials/cd.md">Setting a Continues Deployment (CD) pipeline</a></td>
+ <td align="center"><a target="_blank" href="https://alonitac.github.io/Microservices23/slides/microservices_deployment_strategies.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
+ <td>&nbsp;</td>
+ <td align="center"><a href="tutorials/cd.md#exercises"><img src="https://alonitac.github.io/DevOpsTheHardWay/img/pen.png" /></a></td> <td align="center"></td>
 </tr>	
+
 
 
 

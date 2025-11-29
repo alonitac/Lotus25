@@ -78,9 +78,6 @@ on:
     branches: 
      - main
 
-permissions:
-  contents: read
-
 jobs:
   tests:
     runs-on: ubuntu-latest
