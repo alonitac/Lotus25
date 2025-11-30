@@ -32,7 +32,7 @@ This repo contains selected topics and materials in DevOps for Developers.
 
 
 <tr>
- <td>1</td>
+ <td>2</td>
  <td>CI/CD</td>
  <td><a href="tutorials/ci.md">Setting a Continues Integration (CI) pipeline</a></td>
  <td></td>
@@ -42,7 +42,7 @@ This repo contains selected topics and materials in DevOps for Developers.
 
 
 <tr>
- <td>1</td>
+ <td>3</td>
  <td>CI/CD</td>
  <td><a href="tutorials/cd.md">Setting a Continues Deployment (CD) pipeline</a></td>
  <td align="center"><a target="_blank" href="https://alonitac.github.io/Microservices23/slides/microservices_deployment_strategies.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
