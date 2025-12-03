@@ -71,6 +71,15 @@ This repo contains selected topics and materials in DevOps for Developers.
  <td align="center"><a href="tutorials/docker_containers.md#exercises"><img src="https://alonitac.github.io/DevOpsTheHardWay/img/pen.png" /></a></td>
 </tr>
 
+<tr>
+ <td>6</td>
+ <td>Containers</td>
+ <td><a href="tutorials/docker_compose.md">Docker compose</a></td>
+ <td></td>
+ <td align="center"></td>
+ <td align="center"></td>
+</tr>
+
 
 
 </table>
