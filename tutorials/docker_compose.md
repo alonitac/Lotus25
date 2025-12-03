@@ -38,4 +38,12 @@ Using Docker Compose offers several benefits:
 - **Automate Volumes and Networking**: Docker Compose automatically creates a network for the application and assigns a unique DNS name to each service. No need to create networks and volumes. 
 
 
+# Exercises 
+
+### :pencil2: Try compose 
+
+
+The official Docker Compose website provides good getting started tutorial with Docker Compose, explaining key concepts and demonstrating how to write a Compose file.
+Complete the tutorial:      
+https://docs.docker.com/compose/gettingstarted/
 
