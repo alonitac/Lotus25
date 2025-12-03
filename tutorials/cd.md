@@ -38,6 +38,11 @@ jobs:
 - You should deploy to a [production environment](https://docs.railway.com/guides/environments) in Railway. 
 
 
+## CI/CD summary diagram
+
+![git_envbased](https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/git_envbased.png)
+
+
 # Exercises 
 
 ### :pencil2: Implement a CD Pipeline
