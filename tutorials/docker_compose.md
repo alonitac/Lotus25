@@ -47,3 +47,7 @@ The official Docker Compose website provides good getting started tutorial with 
 Complete the tutorial:      
 https://docs.docker.com/compose/gettingstarted/
 
+### :pencil2: Postgres + PGAdmin container 
+
+Create a `docker-compose.yml` file that sets up a PostgreSQL database and PGAdmin web interface as done in the previous exercise. 
+
