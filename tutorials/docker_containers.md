@@ -201,6 +201,27 @@ And you're in... You can execute any command you want within the running `my-pos
 docker exec -it 89cf04f27c04 /bin/bash
 ```
 
+## Bind mounts 
+
+**Bind mounts** provide a way to mount a directory or file **from the host machine into a container**.
+Bind mounts directly map a directory or file on the host machine to a directory in the container. 
+
+For example:
+
+```bash
+docker run --rm -e POSTGRES_PASSWORD=1234 -p 5432:5432 -v $(pwd)/pgdata:/var/lib/postgresql/data postgres
+```
+
+In this example, we're running a Postgres container while the `-v $(pwd)/pgdata:/var/lib/postgresql/data` flag specifies the bind mount.
+It maps the directory `$(pwd)/pgdata` on the host machine to the `/var/lib/postgresql/data` directory inside the container, which is where Postgres stores its database files.
+
+Whenever the `postgres` container is accessing `/var/lib/postgresql/data` path, the directory it actually sees is `$(pwd)/pgdata` on the host machine.
+More than that, every change the container does to the `/var/lib/postgresql/data` directory will reflect in the corresponding location on the host machine, `$(pwd)/pgdata`, due to the bind mount.
+The other way also applies, changes made on the host machine in `$(pwd)/pgdata` will be visible inside the container under `/var/lib/postgresql/data`.
+
+This is particularly useful for persisting Postgres data beyond the container's lifetime. Even if you remove the container, the database files remain in the `pgdata` directory on your host machine, and you can reuse them when starting a new Postgres container.
+
+
 ## Docker image vulnerabilities
 
 Docker images contain security vulnerabilities, either by using vulnerable base image, or install insecure package.

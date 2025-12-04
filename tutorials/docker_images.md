@@ -193,6 +193,12 @@ docker run -p 8080:80 my-2048-game
 
 Similar to what we've done for the netflix-frontend, build a docker image for your own microservice.
 
+### :pencil2: CI/CD for your microservice image
+
+In the CD (deploy) pipeline of your microservice, create a job that builds the docker image and pushes it to your DockerHub registry.
+
+The pipeline should be triggered on every push to the `main` branch.
+
 
 ### :pencil2: Roberta app
 
