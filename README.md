@@ -81,5 +81,15 @@ This repo contains selected topics and materials in DevOps for Developers.
 </tr>
 
 
+<tr>
+ <td>7</td>
+ <td>Containers</td>
+ <td><a href="tutorials/docker_images.md">Docker images</a></td>
+ <td></td>
+ <td align="center"></td>
+ <td align="center"></td>
+</tr>
+
+
 
 </table>
