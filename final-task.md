@@ -32,31 +32,31 @@ docker compose up
 
 Both services should start and be able to communicate with each other.
 
-[!TIP]
-If you want to include sensitice valus in your `dockker-compose.yaml` and don't want to hardcode them (you shouldn't do that) - use environment variables or `.env` file.
-
-Compose lets you define environment variables in a `.env` file so you don’t hardcode values in your `docker-compose.yaml`.
-
-Simply create a `.env` file **in the same directory** as your `docker-compose.yaml`, as follows:
-
-```text
-# .env file
-MY_PASS=1234
-```
-
-Then, reference the variable in your `docker-compose.yaml` like this:
-
-```yaml
-services:
-    backend:
-        image: backend:0.0.1
-        ports:
-          - "8080:8080"
-        environment:
-          - NODE_ENV=production
-          - PORT=8080
-          - DB_PASSWORD=${MY_PASS}
-```
+> [!TIP]
+> If you want to include sensitice valus in your `dockker-compose.yaml` and don't want to hardcode them (you shouldn't do that) - use environment variables or `.env` file.
+> 
+> Compose lets you define environment variables in a `.env` file so you don’t hardcode values in your `docker-compose.yaml`.
+> 
+> Simply create a `.env` file **in the same directory** as your `docker-compose.yaml`, as follows:
+> 
+> ```text
+> # .env file
+> MY_PASS=1234
+> ```
+> 
+> Then, reference the variable in your `docker-compose.yaml` like this:
+> 
+> ```yaml
+> services:
+>     backend:
+>         image: backend:0.0.1
+>         ports:
+>           - "8080:8080"
+>         environment:
+>           - NODE_ENV=production
+>           - PORT=8080
+>           - DB_PASSWORD=${MY_PASS}
+> ```
 
 
 ## CI/CD Pipeline with GitHub Actions
@@ -170,7 +170,8 @@ jobs:
             docker compose up -d
 ```
 
-> [!TIP] #### Setup GitHub Secrets
+> [!TIP] 
+> #### Setup GitHub Secrets
 > 
 > In your GitHub repository, go to **Settings → Secrets and variables → Actions** and add:
 > 
