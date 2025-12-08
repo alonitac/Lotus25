@@ -90,6 +90,15 @@ This repo contains selected topics and materials in DevOps for Developers.
  <td align="center"></td>
 </tr>
 
+<tr>
+ <td>6</td>
+ <td>Cloud (AWS)</td>
+ <td><a href="tutorials/aws_intro.md">Intro to cloud computing</a></td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_intro.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/aws_intro.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
+ <td align="center"></td>
+</tr>
+
 
 
 </table>
