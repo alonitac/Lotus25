@@ -99,6 +99,14 @@ This repo contains selected topics and materials in DevOps for Developers.
  <td align="center"></td>
 </tr>
 
+<tr>
+ <td>9</td>
+ <td>Cloud (AWS)</td>
+ <td>AWS EC2 and EBS</td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/slides/aws_ec2.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/slides.png" /></a></td>
+ <td align="center"><a target="_blank" href="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/multichoice-questions/aws_ec2.html"><img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/qm.png" /></a></td>
+ <td align="center"></td>
+</tr>
 
 
 </table>
